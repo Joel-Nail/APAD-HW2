@@ -1,0 +1,70 @@
+ {/*
+const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`You entered the name: ${name}`
+    )
+
+    fetch('http://127.0.0.1:5000/api/getter', {method: 'GET'})
+    .then(response => {
+      console.log(response.json())
+      return response.json()
+    })
+  }
+*/}
+  
+
+  {/*function handleClick(e) {
+    console.log('you clicked the button. nicely done.')
+    console.log(e)
+
+    const requestOptions = {
+      method: 'GET'
+    }
+
+    fetch('http://127.0.0.1:5000/api/getter', requestOptions)
+    .then(response => response.json())
+    .then(data => setName(data.data_from_backend))
+
+  }
+
+   function handleSubmit(event) {
+    event.preventDefault();
+    console.log({name})
+    
+    fetch('http://127.0.0.1:5000/api/getter', {method: 'POST', body: JSON.stringify({content:{name}})})
+    .then(response => response.json()
+    .then(data => ({data, response})))
+    .then(({data, response}) => {console.log(data)})
+
+    const requestOptions = {
+      method: 'GET'
+    }
+
+    fetch('http://127.0.0.1:5000/api/getter', requestOptions)
+    .then(response => response.json())
+    .then(data => console.log(data.data_from_backend))
+  }
+ */}
+
+ {/*function handleSubmit(event) {
+    event.preventDefault()
+    console.log({name})
+    
+    fetch('http://localhost:5000/api/name/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({name})
+      })
+      
+      
+      event.preventDefault()
+
+      fetch('http://localhost:5000/api/getter/', getRequest)
+    .then(response=>response.json())
+    .then(data=>console.log(data.data_from_backend))
+
+      event.preventDefault()
+
+  } */} 
